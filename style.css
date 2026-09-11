@@ -35,7 +35,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border: 2px solid red;
 }
 
 #inicio .eyebrow {
@@ -110,7 +109,6 @@ header {
     display: flex;
     align-items: center;
     padding: 0 5%;
-    border: 2px solid red;
 }
 
 header img {
