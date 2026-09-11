@@ -21,7 +21,7 @@ body {
 }
 
 section {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 80px - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,4 +114,14 @@ header {
 header img {
     width: 200px;
     display: block;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.85rem;
+    color: white;
 }
