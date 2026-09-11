@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    background-image:url(imagens/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    height: calc(100vh - 80px - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    width: 90%;
+    height: 60%;
+    margin: 24px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#inicio .eyebrow {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#inicio h1 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+#inicio h1 span {
+    display: block;
+}
+
+#inicio h1 span:first-child {
+    color: white;
+}
+
+#inicio h1 span:last-child {
+    color: #50e78e;
+}
+
+#inicio h2 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 400px;
+    margin-top: 12px;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+#inicio .descricao{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    max-width: 500px;
+    margin-top: 12px;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+
+}
+
+#inicio a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 29px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 24px;
+
+    background-color: #50e78e;
+    color: #071B2B;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+#inicio a:hover{
+    background-color:  #3fd77d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+header img {
+    width: 200px;
+    display: block;
+}
+
+footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.85rem;
+    color: white;
+}
